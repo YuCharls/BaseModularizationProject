@@ -1,0 +1,63 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion build_versions.compile_sdk
+    buildToolsVersion build_versions.build_tools
+    useLibrary 'org.apache.http.legacy'
+
+
+
+    defaultConfig {
+
+        minSdkVersion build_versions.min_sdk
+        targetSdkVersion build_versions.target_sdk
+        versionCode 1
+        versionName "1.0"
+
+        //阿里路由
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [moduleName: project.getName()]
+            }
+        }
+
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+    compile deps.arouter_api
+    annotationProcessor deps.arouter_compiler
+
+    compile deps.support.app_compat_7
+    compile deps.support.design
+    compile deps.butterknife
+    compile deps.okhttp3
+    compile deps.okhttp3_log
+
+    compile deps.rxJava2.rxjava
+    compile deps.rxJava2.rxandroid
+
+    compile deps.retrofit.retrofit2
+    compile deps.retrofit.adapter
+    compile deps.retrofit.gson
+    compile deps.retrofit.scalars
+    compile deps.retrofit.converters
+
+    //Leaks 内存泄漏检测工具
+    compile deps.leakcanary
+
+    //导入图片压缩
+    compile deps.compressor
+
+    compile project(':lib_uikit')
+}
