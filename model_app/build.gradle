@@ -12,8 +12,9 @@ android {
         applicationId "mvpdemo.yc.example.com"
         minSdkVersion build_versions.min_sdk
         targetSdkVersion build_versions.target_sdk
-        versionCode 1
-        versionName "1.0"
+        versionCode build_versions.version_code
+        versionName build_versions.version_name
+  
     }
     
     
@@ -31,8 +32,11 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile deps.support.app_compat_7   
+    compile deps.support.app_compat_7
+    compile project(':model_common')
     if (!isModule.toBoolean()) {
         compile project(path: ':model_main')
+        compile project(path: ':model_z_empty')
+
     }
 }

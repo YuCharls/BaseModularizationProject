@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\BaseModularizationProject\\model_z_empty\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\admin\\Desktop\\BaseModularizationProject\\model_z_empty\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\BaseModularizationProject\\model_z_empty\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi-v4\\ic_launcher_round.png",
+        "source": "C:\\Users\\admin\\Desktop\\BaseModularizationProject\\model_z_empty\\build\\intermediates\\exploded-aar\\BaseModularizationProject\\model_common\\unspecified\\res\\mipmap-mdpi-v4\\ic_launcher_round.png"
+    }
+]

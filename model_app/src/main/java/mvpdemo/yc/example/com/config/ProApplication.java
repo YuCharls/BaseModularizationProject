@@ -33,8 +33,7 @@ public class ProApplication extends BaseApplication {
         //内存泄漏检测
         LeakCanary.install(this);
 
-        SPathException.getInstance().init(getApplicationContext());
-
+        
     }
 
 }

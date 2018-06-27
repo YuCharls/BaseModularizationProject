@@ -7,15 +7,16 @@ android {
     compileSdkVersion build_versions.compile_sdk
     buildToolsVersion build_versions.build_tools
     useLibrary 'org.apache.http.legacy'
-
+    resourcePrefix "main_"
 
 
     defaultConfig {
-        
+
         minSdkVersion build_versions.min_sdk
         targetSdkVersion build_versions.target_sdk
-        versionCode 1
-        versionName "1.0"
+        versionCode build_versions.version_code
+        versionName build_versions.version_name
+
 
         //阿里路由
         javaCompileOptions {
@@ -41,7 +42,7 @@ android {
                 manifest.srcFile 'src/main/AndroidManifest.xml'
                 //集成开发模式下排除debug文件夹中的所有Java文件
                 java {
-                    exclude 'com.example.yc.mvpdemo.debug/**'
+                    exclude 'com.example.yc.mvpdemo.main.debug/**'
                 }
             }
         }

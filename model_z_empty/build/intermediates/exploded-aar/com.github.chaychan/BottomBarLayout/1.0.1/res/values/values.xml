@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="selector_grey">#DDDDDD</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="BottomBarItem"><attr format="reference" name="iconNormal"/><attr format="reference" name="iconSelected"/><attr format="string" name="itemText"/><attr format="dimension" name="itemTextSize"/><attr format="color" name="textColorNormal"/><attr format="color" name="textColorSelected"/><attr format="dimension" name="itemMarginTop"/><attr format="boolean" name="openTouchBg"/><attr format="reference" name="touchDrawable"/></declare-styleable>
+    <string name="app_name">library</string>
+</resources>

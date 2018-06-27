@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\BaseModularizationProject\\model_z_empty\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26\\ic_launcher_round.xml",
+        "source": "C:\\Users\\admin\\Desktop\\BaseModularizationProject\\model_z_empty\\build\\intermediates\\exploded-aar\\BaseModularizationProject\\model_common\\unspecified\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\BaseModularizationProject\\model_z_empty\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26\\ic_launcher.xml",
+        "source": "C:\\Users\\admin\\Desktop\\BaseModularizationProject\\model_z_empty\\build\\intermediates\\exploded-aar\\BaseModularizationProject\\model_common\\unspecified\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    }
+]

@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="ResourceName">MvpDemoEmpty</string>
+
+    <string name="empty_app_name_my">MvpDemoEm</string>
+
+
+</resources>
